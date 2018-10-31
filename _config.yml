@@ -25,7 +25,7 @@ description: PowerShell, Linux awesomeness!
 navbar-links:
   Projects:
     - Proxx OS: "proxxos"
-    - Grafana-armv7: "proxxos"
+    - Grafana-armv7: "https://github.com/Proxx/Grafana-armv7"
     - Proxx.SQLite(posh): "https://github.com/Proxx/Proxx.SQLite"
   Resources:
     - GitHub: "https://github.com/Proxx"
@@ -74,7 +74,7 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: false
-  email: "marco@proxx.nl"
+  #email: "marco@proxx.nl"
   github: proxx
 #  twitter: 
 #  reddit: yourname
@@ -96,7 +96,7 @@ share-links-active:
   twitter: false
   facebook: false
   google: false
-  linkedin: true
+  linkedin: false
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
@@ -169,7 +169,7 @@ defaults:
     values:
       layout: "post"
       comments: true  # add comments to all blog posts
-      social-share: true # add social media sharing buttons to all blog posts
+      social-share: false # add social media sharing buttons to all blog posts
   -
     scope:
       path: "" # all files
