@@ -24,6 +24,7 @@ description: PowerShell, Linux awesomeness!
 # List of links in the navigation bar
 navbar-links:
   Projects:
+    - Boxstarter: "boxstarter"
     - Proxx OS: "proxxos"
     - Grafana-armv7: "https://github.com/Proxx/Grafana-armv7"
     - Proxx.SQLite(posh): "https://github.com/Proxx/Proxx.SQLite"
