@@ -9,6 +9,7 @@ Removing Apoint
 run cmd.exe with administrator rights
 
 ``` cmd
+net stop ApHidMonitorService
 sc delete ApHidMonitorService
 
 taskkill /f /im ApMsgFwd.exe
